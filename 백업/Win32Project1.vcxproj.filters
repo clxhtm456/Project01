@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\map">
+      <UniqueIdentifier>{64a77644-ada2-4bb3-a636-09e80db1a31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\interface">
+      <UniqueIdentifier>{6d7fd2bc-a374-42aa-9783-2e3cd4243cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\player">
+      <UniqueIdentifier>{ff947fe2-a3e0-4b37-bacc-98a63551c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\player\TOP">
+      <UniqueIdentifier>{10ea3406-fc43-4203-9a6b-d836d1cee044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\player\BEHIND">
+      <UniqueIdentifier>{c7c747e1-4ab9-4b24-b26d-149ddd36fc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\player\BEHIND\mask">
+      <UniqueIdentifier>{e4435ead-a076-4da3-8e0a-c6ad609fc3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\player\TOP\mask">
+      <UniqueIdentifier>{69ee77a0-efdf-499e-81cd-2574ab269248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\EFFECT">
+      <UniqueIdentifier>{eb7bd7fc-8bf6-44bb-b143-ae9c97221a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\monster">
+      <UniqueIdentifier>{116f786b-be81-4850-b17f-28d6248a8f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\monster\mask">
+      <UniqueIdentifier>{2932998b-f270-4508-9534-ae3e0f372936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\map\mask">
+      <UniqueIdentifier>{8cd71f23-172d-4796-9850-73eaf64fe437}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="missile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="missile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resource\map\1.bmp">
+      <Filter>리소스 파일\map</Filter>
+    </Image>
+    <Image Include="..\resource\map\2.bmp">
+      <Filter>리소스 파일\map</Filter>
+    </Image>
+    <Image Include="..\145241_57c670a9c3e07.bmp">
+      <Filter>리소스 파일\interface</Filter>
+    </Image>
+    <Image Include="..\gameover.bmp">
+      <Filter>리소스 파일\interface</Filter>
+    </Image>
+    <Image Include="..\gamestart.bmp">
+      <Filter>리소스 파일\interface</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\firemask1.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\firemask2.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\firemask3.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\firemask4.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\firemask5.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\duckingmask1.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\duckingmask2.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\duckingmask3.bmp">
+      <Filter>리소스 파일\player\BEHIND\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\stand1.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\stand2.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\stand3.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk1top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk2top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk3top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk4top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk5top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk6top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk7top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk8top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\walk9top.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\ducking1.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\ducking2.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\ducking3.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\fire1.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\fire2.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\fire3.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\fire4.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\fire5.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump1.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump2.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump3.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump4.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump5.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump6.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump7.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump8.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\jump9.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\stand1.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\stand2.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\stand3.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk1.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk2.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk3.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk4.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk5.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk6.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk7.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk8.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walk9.bmp">
+      <Filter>리소스 파일\player\BEHIND</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\fire1.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\fire2.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\fire3.bmp">
+      <Filter>리소스 파일\player\TOP</Filter>
+    </Image>
+    <Image Include="..\resource\shot\handgun.bmp">
+      <Filter>리소스 파일\EFFECT</Filter>
+    </Image>
+    <Image Include="..\resource\shot\handgun_mask.bmp">
+      <Filter>리소스 파일\EFFECT</Filter>
+    </Image>
+    <Image Include="..\resource\shot\machine_gun.bmp">
+      <Filter>리소스 파일\EFFECT</Filter>
+    </Image>
+    <Image Include="..\resource\shot\machine_gun_mask.bmp">
+      <Filter>리소스 파일\EFFECT</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk1.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk2.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk3.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk4.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk5.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk6.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk7.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk8.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk9.bmp">
+      <Filter>리소스 파일\monster</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk1_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk2_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk3_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk4_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk5_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk6_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk7_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk8_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Monster\m_walk9_mask.bmp">
+      <Filter>리소스 파일\monster\mask</Filter>
+    </Image>
+    <Image Include="..\resource\map\3.bmp">
+      <Filter>리소스 파일\map</Filter>
+    </Image>
+    <Image Include="..\resource\map\2_mask.bmp">
+      <Filter>리소스 파일\map\mask</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\firemask1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\firemask2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\firemask3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_fire1_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_fire2_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_fire3_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_stand1_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_stand2_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_stand3_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standmask1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standmask2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standmask3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standmask4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standtop1_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standtop2_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\standtop3_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\standmask1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\standmask2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\standmask3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\walkmask9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\map\coll1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_stand1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_stand2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_stand3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_fire1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_fire2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\character\Player\top\heavy_fire3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\map\1_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\map\4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\resource\map\4_mask.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
